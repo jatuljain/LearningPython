@@ -1,13 +1,14 @@
 import re
 import os
 import sys
+
 print(pathvar)
-# with open("E:\\Python\\data.txt") as d:
-#
-# 	for i in d:
-# 		print(i)
-#
-#
+with open("E:\\Python\\data.txt") as d:
+
+	for i in d:
+		print(i)
+
+
 
 # file = open("E:\\Python\\file.txt")
 
