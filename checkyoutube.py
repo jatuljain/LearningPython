@@ -26,6 +26,7 @@ query = input_func.replace(' ', '+')
 url = 'https://www.youtube.com/results?search_query=' + query
 source_code = requests.get(url,timeout=15)
 plain_text = source_code.text
+# print (plain_text)
 soup = BeautifulSoup(plain_text, "html.parser")
 
 # fetches the url of the video

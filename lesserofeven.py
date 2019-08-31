@@ -1,6 +1,8 @@
 '''
 Funcion to check lesser digit out of given two
 '''
+
+
 def lesser_of_two_even(first, second):
     '''
     Funcion to check lesser digit out of given two
@@ -17,5 +19,7 @@ def lesser_of_two_even(first, second):
             return first
     else:
         pass
+
+
 FINALVALUE = lesser_of_two_even(2, 4)
 print(FINALVALUE)
