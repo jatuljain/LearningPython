@@ -21,5 +21,5 @@ def lesser_of_two_even(first, second):
         pass
 
 
-FINALVALUE = lesser_of_two_even(2, 4)
+FINALVALUE = lesser_of_two_even(5, 3)
 print(FINALVALUE)

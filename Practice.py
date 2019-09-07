@@ -1,20 +1,20 @@
 # Python practise programs
-# from array import array
+from numpy import array
 import re
-host = {'speciality': 'speciality', 'Count': 'count' }
+# host = {'speciality': 'speciality', 'Count': 'count' }
+#
+#
+# def sleep_in(weekday, vacation):
+#     sleep = None
+#     if (weekday == False) or (vacation == True):
+#         sleep = True
+#     elif (weekday == True) and (vacation == True):
+#         sleep == True
+#     elif (weekday == True) and (vacation == False):
+#         sleep == False
+#     return sleep
 
-
-def sleep_in(weekday, vacation):
-    sleep = None
-    if (weekday == False) or (vacation == True):
-        sleep = True
-    elif (weekday == True) and (vacation == True):
-        sleep == True
-    elif (weekday == True) and (vacation == False):
-        sleep == False
-    return sleep
-
-print(sleep_in(1,1))
+# print(sleep_in(1,1))
 # list = ["1", "4", "0", "6", "9"]
 # list = [int(i) for i in list]
 # list.sort()
@@ -139,13 +139,20 @@ print(sleep_in(1,1))
 # =========================================
 # Difference between array and list
 # =========================================
-# x = array([3, 6, 9, 12])
-# x/3.0
-# print(x)
+x = array([3, 6, 9, 12])
+x/3.0
+print(x)
+'''
+In the above example, your output would be:
 
-# y = [3, 6, 9, 12]
-# y/3.0
-# print(y)
+array([1, 2, 3, 4])
+lists are containers for elements having differing data types but arrays are used as containers for 
+elements of the same data type.
+'''
+
+y = [3, 6, 9, 12]
+y/3.0
+print(y)
 
 
 # print ("\n\n =============Tupple example started==========")

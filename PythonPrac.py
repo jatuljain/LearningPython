@@ -1,3 +1,7 @@
+'''
+Finding a unique values in list
+'''
+
 testlist = [2, 3, 4, 5, 4, 3, 2, 100]
 print (testlist)
 print ("\n")
@@ -11,15 +15,21 @@ for l in testlist:
 print (newlist)
 
 
+'''
 
 ############################################################################################################
+
+#--------------------------------------------
+# To check the reference of a variable use "id"
+#--------------------------------------------
 x=10
 y=x
 
 if (id(x)==id(y)):
 	print ("x and y are having same ref")
 	
-	
+#----------------------------------------------------------------------------------------------------------
+'''
 
 ### Title method title() returns a copy of the string in which first characters of all the words are capitalized.	
 string = "this is ATUL Jain"	
@@ -34,7 +44,7 @@ print (numericstring.isdecimal())  ### True
 L = [1, 2, 5, 10, -10]
 print (L) 	 		## [1, 2, 5, 10, -10]
 print (max(L))      ## 10
-print (L.index(2))  ## 1
+print (L.index(2))  ## 1, index means position of that value 2
 L.remove(2) 
 print (L) 			## [1, 5, 10, -10]
 L.reverse()

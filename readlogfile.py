@@ -11,14 +11,10 @@ my_regex = r"" +ipregex
 while line :
     # print(line)
     line = fh.readline()
-'''##### To match multiple conditions'''
-    if re.match(my_regex + "( is reachable| is not reachable)", line):
+    if re.match(my_regex + "( is reachable| is not reachable)", line):  # If want to add multiple conditions
         fhw.write(line)
+        newfilec = fhw.read()
 
-# content = file.read()
-# print (content)
-
-newfilec = fhw.read()
 print (newfilec)
 fh.close()
 fhw.close()
