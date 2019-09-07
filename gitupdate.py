@@ -3,6 +3,8 @@ from os import path
 import re
 repository  = 'E:\\Python\\git_projects'
 gitpath = "C:\\Program Files\\Git\\cmd\\git.exe"
+git_query = ""
+git_status = ""
 
 def gitadd ():
     git_command = [gitpath, 'add', '.']
@@ -24,20 +26,25 @@ def gitpush ():
     git_command = [gitpath, 'push']
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
     (git_status, error) = git_query.communicate()
-    print("git push output", git_status)
-    print("git push error", error)
+    print("git push output\n", git_status)
+    print("git push error\n", error)
+
+
+def gitstatus():
+    git_command = [gitpath, 'status']
+    git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
+    print(repository)
+    (git_status, error) = git_query.communicate()
+    print("git git_status output \n", git_status)
+    print("git git_status error \n\n\n\n", error)
+    return git_status
 
 
 
-git_command = [gitpath, 'status']
-git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
-print(repository)
-(git_status, error) = git_query.communicate()
-print("git git_status output \n", git_status)
-print("git git_status error \n", error)
+if __name__ == "__main__":
 
-if git_query.poll() == 0:
-
+    git_status = gitstatus()
+    # if git_query.poll() == 0:
     # print(git_status)
     checkuntrack = re.search("Untracked files", git_status.decode('utf-8'))
     print("checkuntrack \t", checkuntrack)
