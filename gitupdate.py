@@ -17,11 +17,11 @@ def gitcommit (comment):
     git_command = [gitpath, 'commit',  '-m', comment ]
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
     (git_status, error) = git_query.communicate()
-    print("git commit output", git_status)
-    print("git commit error", error)
+    print("git commit output \n", git_status)
+    print("git commit error\n", error)
 
 def gitpush ():
-    git_command = [gitpath, 'commit', 'push']
+    git_command = [gitpath, 'push']
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
     (git_status, error) = git_query.communicate()
     print("git push output", git_status)
