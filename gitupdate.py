@@ -11,16 +11,20 @@ def gitadd ():
     git_query = Popen(git_command, cwd=repository,  stdout=PIPE, stderr=PIPE)
     print("gitadd  git query" , git_query)
     (git_status, error) = git_query.communicate()
-    print("git add output \n\n ",git_status)
-    print("git add error \n\n ",error)
-    return error
+    print("git add output ", git_status)
+    print("git add error  ",error)
+    print("\n\n")
+    if error:
+        raise Exception("There is an error while git add \n")
 
 def gitcommit (comment):
-    git_command = [gitpath, 'commit',  '-m', comment ]
+    git_command = [gitpath, 'commit', '-m', comment ]
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
     (git_status, error) = git_query.communicate()
     print("git commit output \n", git_status)
     print("git commit error\n", error)
+    if error:
+        raise Exception("There is an error while comment \n")
 
 def gitpush ():
     git_command = [gitpath, 'push']
@@ -33,10 +37,10 @@ def gitpush ():
 def gitstatus():
     git_command = [gitpath, 'status']
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
-    print(repository)
+    # print(repository)
     (git_status, error) = git_query.communicate()
-    print("git git_status output \n", git_status)
-    print("git git_status error \n\n\n\n", error)
+    # print("git git_status output \n", git_status)
+    # print("git git_status error \n\n\n\n", error)
     return git_status
 
 
@@ -54,7 +58,7 @@ if __name__ == "__main__":
             comment = input("Enter the comment to checking the code:")
             gitcommit(comment)
             gitpush()
-        except ValueError:
+        except:
             print("error in adding or commiting \n")
             pass
 
