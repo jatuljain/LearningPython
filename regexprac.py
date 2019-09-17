@@ -67,3 +67,8 @@ print("server group :", servergroup.group(1))
 methoduser = re.search('Select server for method=(.*), user=(.*), essid', output)
 print("method : ", methoduser.group(1))
 print("user : ", methoduser.group(2))
+
+
+## Sub is used used to replace substrings. 
+servercbhresponse = re.sub(": response=(.*) from", "response=1", output)
+print("Updated server_cbh response", servercbhresponse)

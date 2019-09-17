@@ -1,10 +1,16 @@
 from subprocess import Popen, PIPE
 from os import path
+import os
+from datetime import date, datetime
+
+now = datetime.now()
+
 import re
-repository  = 'E:\\Python\\git_projects'
-gitpath = "C:\\Program Files\\Git\\cmd\\git.exe"
+repository  = os.getcwd()
+gitpath = "C:\\Users\\atul.jain\\AppData\\Local\\Programs\Git\\cmd\\git.exe"
 git_query = ""
 git_status = ""
+
 
 def gitadd ():
     git_command = [gitpath, 'add', '.']
@@ -17,6 +23,7 @@ def gitadd ():
     if error:
         raise Exception("There is an error while git add \n")
 
+
 def gitcommit (comment):
     git_command = [gitpath, 'commit', '-m', comment ]
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
@@ -25,6 +32,7 @@ def gitcommit (comment):
     print("git commit error\n", error)
     if error:
         raise Exception("There is an error while comment \n")
+
 
 def gitpush ():
     git_command = [gitpath, 'push']
@@ -44,7 +52,6 @@ def gitstatus():
     return git_status
 
 
-
 if __name__ == "__main__":
 
     git_status = gitstatus()
@@ -55,8 +62,9 @@ if __name__ == "__main__":
     if checkuntrack != None:
         try:
             gitadd()
-            comment = input("Enter the comment to checking the code:")
-            gitcommit(comment)
+            # comment = input("Enter the comment to checking the code:")
+            print("now : ",now)
+            gitcommit("Adding now: ")
             gitpush()
         except:
             print("error in adding or commiting \n")

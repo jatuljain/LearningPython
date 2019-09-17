@@ -14,6 +14,15 @@ import copy
 #
 # Deep copy
 # Shallow copy
+
+# Important Points:
+# The difference between shallow and deep copying is only relevant for compound objects (objects that contain
+# other objects, like lists or class instances):
+#
+# A shallow copy constructs a new compound object and then (to the extent possible) inserts references into
+# it to the objects found in the original.
+# A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects
+# found in the original.
 ###################################################################
 
 ########### Example with list of list.
@@ -81,16 +90,3 @@ print ("newlist 2 out put with shallow copy", newlist)
 ######################
 ###### --> simplelist 1 out put with shallow copy [1, 2, 3, 4, 5]
 ###### --> newlist 2 out put with shallow copy ['newupdate', 2, 3, 4, 5]
-
-
-
-
-
-
-
-
-
-
-
-
-
