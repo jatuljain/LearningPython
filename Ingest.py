@@ -2,6 +2,8 @@
 import fileinput
 import re
 
+
+print("This is just to submit for review")
 with open('E:\\Python\\ADI.XML', 'r') as file:
 	# content = file.read()
 	content=file.read().replace('\n', '&')
