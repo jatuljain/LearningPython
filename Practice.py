@@ -1,6 +1,97 @@
 # Python practise programs
 from numpy import array
 import re
+from checkascii import countascii
+
+f=open("E:\Python\myfile.txt","r+")
+# f.write("Hello! Learn Python on TutorialsTeacher.")
+content = f.readlines()
+print(content)
+
+f.close()
+
+
+## -----------------------------------------------------------------------------------------------
+# Simply iterate through the string and form a key in dictionary of newly occurred element or if element is already
+# occurred, increase its value by 1.
+str1 = "abcdabcdabcd"
+
+all_freq = {}
+
+for i in str1:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+
+print ("Count of all characters in " + str1 + " is :\n "  +  str(all_freq))
+
+## ------------------------------
+
+# Python3 code to demonstrate
+# each occurrence frequency using
+# collections.Counter()
+from collections import Counter
+
+# initializing string
+test_str = "GeeksforGeeks"
+
+# using collections.Counter() to get
+# count of each element in string
+res = Counter(test_str)
+
+# printing result
+print ("Count of all characters in GeeksforGeeks is :\n " + str(res))
+
+## ------------------------------
+
+# Python3 code to demonstrate
+# each occurrence frequency using
+# dict.get()
+
+# initializing string
+test_str = "GeeksforGeeks"
+
+# using dict.get() to get count
+# of each element in string
+res = {}
+
+for keys in test_str:
+	res[keys] = res.get(keys, 0) + 1
+
+# printing result
+print ("Count of all characters in GeeksforGeeks is : \n"
+											+ str(res))
+
+
+## -----------------------------------------------------------------------------------------------
+
+
+def getSuiteSrcDir():
+  builtin = BuiltIn.BuiltIn()
+  srcPath = builtin.get_variable_value('${SUITE SOURCE}')
+  if os.path.isfile(srcPath):
+    srcDir = os.path.dirname(srcPath)
+  elif os.path.isdir(srcPath):
+    srcDir = srcPath
+  else:
+    log.error("Suite source directory not found; src={0}".format(srcPath))
+    srcDir = ''
+  return srcDir
+
+
+# getSuiteSrcDir("e:\python")
+
+# def string_bits(str):
+#   l1 = ""
+#   for i in range(0,len(str), 2):
+#     l1 = l1+(str[i])
+#   return l1
+#
+# p = string_bits("Hello")
+# print(p)
+
+# print(countascii("Hello"))
 # host = {'speciality': 'speciality', 'Count': 'count' }
 #
 #
@@ -139,9 +230,9 @@ import re
 # =========================================
 # Difference between array and list
 # =========================================
-x = array([3, 6, 9, 12])
-x/3.0
-print(x)
+# x = array([3, 6, 9, 12])
+# x/3.0
+# print(x)
 '''
 In the above example, your output would be:
 
@@ -150,9 +241,16 @@ lists are containers for elements having differing data types but arrays are use
 elements of the same data type.
 '''
 
-y = [3, 6, 9, 12]
-y/3.0
-print(y)
+# y = [3, 6, 9, 12]
+# y/3.0
+# print(y)
+# # >>> y/3.0
+# # Traceback (most recent call last):
+  # # File "<stdin>", line 1, in <module>
+# # TypeError: unsupported operand type(s) for /: 'list' and 'float'
+
+
+
 
 
 # print ("\n\n =============Tupple example started==========")

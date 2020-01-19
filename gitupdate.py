@@ -1,10 +1,11 @@
 from subprocess import Popen, PIPE
 from os import path
 import re
-repository  = 'E:\\Python\\git_projects'
+repository  = 'E:\\Python\\\LearningPython'
 gitpath = "C:\\Program Files\\Git\\cmd\\git.exe"
 git_query = ""
 git_status = ""
+
 
 def gitadd ():
     git_command = [gitpath, 'add', '.']
@@ -17,6 +18,7 @@ def gitadd ():
     if error:
         raise Exception("There is an error while git add \n")
 
+
 def gitcommit (comment):
     git_command = [gitpath, 'commit', '-m', comment ]
     git_query = Popen(git_command, cwd=repository, stdout=PIPE, stderr=PIPE)
@@ -25,6 +27,7 @@ def gitcommit (comment):
     print("git commit error\n", error)
     if error:
         raise Exception("There is an error while comment \n")
+
 
 def gitpush ():
     git_command = [gitpath, 'push']
@@ -42,7 +45,6 @@ def gitstatus():
     # print("git git_status output \n", git_status)
     # print("git git_status error \n\n\n\n", error)
     return git_status
-
 
 
 if __name__ == "__main__":
