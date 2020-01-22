@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a1366c-ea5f-4133-a0bb-531178c0f68a" name="Default Changelist" comment="First checking for git project">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/arbitraryarguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generator/generatorexpression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generator/powertwo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generator/reverseSting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/Sortlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILEoP.PY" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/FILEoP.PY" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sortlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkbraces.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkbraces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileoperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/fileoperation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getImdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/getImdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/xmlparser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,37 +27,86 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="177" />
-    <option name="y" value="325" />
-    <option name="width" value="1752" />
-    <option name="height" value="981" />
+  <component name="GotoFileConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="BuildoutCfg" />
+      <filtered-out-file-type name="C#" />
+      <filtered-out-file-type name="C++" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="CSV file" />
+      <filtered-out-file-type name="Dictionary" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="EditorConfig" />
+      <filtered-out-file-type name="Erlang" />
+      <filtered-out-file-type name="GitIgnore file" />
+      <filtered-out-file-type name="Haskell" />
+      <filtered-out-file-type name="HgIgnore file" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="IDEA_MODULE" />
+      <filtered-out-file-type name="IDEA_PROJECT" />
+      <filtered-out-file-type name="IDEA_WORKSPACE" />
+      <filtered-out-file-type name="IDL" />
+      <filtered-out-file-type name="IgnoreLang file" />
+      <filtered-out-file-type name="JavaFX" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSON5" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="Markdown" />
+      <filtered-out-file-type name="PATCH" />
+      <filtered-out-file-type name="Perl" />
+      <filtered-out-file-type name="PHP" />
+      <filtered-out-file-type name="PLAIN_TEXT" />
+      <filtered-out-file-type name="Properties" />
+      <filtered-out-file-type name="PythonStub" />
+      <filtered-out-file-type name="Qt UI file" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="ReST" />
+      <filtered-out-file-type name="RNG Compact" />
+      <filtered-out-file-type name="Robot Feature" />
+      <filtered-out-file-type name="Robot file" />
+      <filtered-out-file-type name="Scratch" />
+      <filtered-out-file-type name="Shell Script" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="SVG" />
+      <filtered-out-file-type name="textmate" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="YAML" />
+      <filtered-out-file-type name="ARCHIVE" />
+      <filtered-out-file-type name="Image" />
+      <filtered-out-file-type name="Native" />
+      <filtered-out-file-type name="ResourceBundle" />
+      <filtered-out-file-type name="UNKNOWN" />
+    </file-type-list>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="git projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1WcUCXNaaGeGduXWv9G6TfoHevk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python\LearningPython\Lists" />
+      <recent name="E:\Python\LearningPython\FileAndDirectory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,6 +119,122 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.parsedirectory">
+    <configuration name="Practise" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PythonPrac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPrac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sortlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Python\LearningPython\Lists\Sortlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="checkxml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkxml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parsedirectory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FileAndDirectory" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parsedirectory" />
+        <item itemvalue="Python.Sortlist" />
+        <item itemvalue="Python.PythonPrac" />
+        <item itemvalue="Python.Practise" />
+        <item itemvalue="Python.checkxml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,30 +257,19 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First checking for git project" />
     <option name="LAST_COMMIT_MESSAGE" value="First checking for git project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practice.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

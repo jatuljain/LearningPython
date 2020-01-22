@@ -15,27 +15,28 @@ import re
 # somefunction()
 # print(f)
 
-file = open("E:\Python\debug.log")
-
-wordcount = Counter(file.read().split())
-
-for item in wordcount.items(): print("{}\t{}".format(*item))
-
-
-# file = open("E:\\Python\\file.txt")
+# file = open("E:\Python\debug.log")
 #
-# content = file.read()
-# print (content)
+# wordcount = Counter(file.read().split())
 #
-# matchObj = re.search(r'(.)-(.)', content, re.M|re.I)
-# if matchObj:
-# 	print "matchObj.group() : ", matchObj.group()
-# 	print "matchObj.group(1) : ", matchObj.group(1)
-# 	print "matchObj.group(2) : ", matchObj.group(2)
-# else:
-# 	print "No match!!"
-#
-   
+# for item in wordcount.items(): print("{}\t{}".format(*item))
+
+
+file = open("E:\\Python\\file.txt")
+
+content = file.read()
+print ("\n\n",content, "\n\n")
+matchObj = re.search(r'(.)-(.)', content, re.M|re.I)
+if matchObj:
+	print("matchObj.group() : ", matchObj.group())
+	print("matchObj.group(1) : ", matchObj.group(1))
+	print("matchObj.group(2) : ", matchObj.group(2))
+else:
+	print("No match!!")
+
+### Print all the matches
+matchObj = re.findall('(.)-(.)', content)
+print("\nall the matches in file -\t", matchObj)
    
    
 # for lines in file.readlines():
