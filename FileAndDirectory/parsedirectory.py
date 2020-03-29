@@ -1,4 +1,8 @@
 import os
+'''
+This program is to count total lines in all the files on a given directory and subdirectories
+
+'''
 
 path = 'E:\\Python\\'
 
@@ -13,11 +17,7 @@ totallinecount = 0
 for f in files:
     # print(f)
     count = len(open(f).readlines())
-    print("file number count is in file %s is %d" % (f, count))
+    print("file number count is in file {} is {}".format (f, count))
     totallinecount = totallinecount + count
 
 print("total file number count is ", totallinecount)
-
-# def countfileline(filepath)
-#     count = len(open(filepath).readlines())
-#     return count

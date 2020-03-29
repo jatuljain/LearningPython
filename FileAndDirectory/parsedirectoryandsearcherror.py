@@ -1,6 +1,6 @@
 import os
 '''
-This program is to count total lines in all the files on a given directory and subdirectories
+This program is to search particular error lines in all the files on a given directory and subdirectories
 
 '''
 
@@ -11,13 +11,16 @@ files = []
 for r, d, f in os.walk(path):
     for file in f:
         if '.txt' in file:
-            files.append(os.path.join(r, file))
+            files.append(os.path.join(r, file)) ## Joining file name with root and making a list
 
-totallinecount = 0
+count = 0
 for f in files:
     # print(f)
-    count = len(open(f).readlines())
-    print("file number count is in file {} is {}".format (f, count))
-    totallinecount = totallinecount + count
+    with open(f) as myFile:
+        for num, line in enumerate(myFile, 1):
+            if "error" in line or "fail" in line:
+                count += 1
+                print(line)
+                print('{} found at line {} in file {}'.format(count, num, myFile) )
 
-print("total file number count is ", totallinecount)
+

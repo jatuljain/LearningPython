@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a1366c-ea5f-4133-a0bb-531178c0f68a" name="Default Changelist" comment="First checking for git project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions/arbitraryarguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/generatorexpression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/powertwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/reverseSting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists/Sortlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectoryandFindIP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/Faillog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduceFilter/mapexample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FILEoP.PY" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/FILEoP.PY" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonPrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sortlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkbraces.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkbraces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileoperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/fileoperation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getImdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/getImdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/xmlparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndDirectory/parsedirectoryandsearcherror.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectoryandsearcherror.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,6 +244,19 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First checking for git project" />
