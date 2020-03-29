@@ -1,8 +1,13 @@
 from subprocess import Popen, PIPE
 from os import path
+import os
+from datetime import date, datetime
+
+now = datetime.now()
+
 import re
-repository  = 'E:\\Python\\\LearningPython'
-gitpath = "C:\\Program Files\\Git\\cmd\\git.exe"
+repository  = os.getcwd()
+gitpath = "C:\\Users\\atul.jain\\AppData\\Local\\Programs\Git\\cmd\\git.exe"
 git_query = ""
 git_status = ""
 
@@ -57,8 +62,9 @@ if __name__ == "__main__":
     if checkuntrack != None:
         try:
             gitadd()
-            comment = input("Enter the comment to checking the code:")
-            gitcommit(comment)
+            # comment = input("Enter the comment to checking the code:")
+            print("now : ",now)
+            gitcommit("Adding now: ")
             gitpush()
         except:
             print("error in adding or commiting \n")

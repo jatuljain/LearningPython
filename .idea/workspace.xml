@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a1366c-ea5f-4133-a0bb-531178c0f68a" name="Default Changelist" comment="First checking for git project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileAndDirectory/parsedirectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions/arbitraryarguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/generatorexpression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/powertwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator/reverseSting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists/Sortlist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FILEoP.PY" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/FILEoP.PY" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOriented/Inheritanceexample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonPrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sortlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkbraces.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkbraces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileoperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndDirectory/fileoperation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getImdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/getImdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/xmlparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/To Check commit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/To Check commit.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +82,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -120,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parsedirectory">
+  <component name="RunManager" selected="Python.gitupdate">
     <configuration name="Practise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="git projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="checkxml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gitupdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="git projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkxml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gitupdate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gitupdate" />
         <item itemvalue="Python.parsedirectory" />
         <item itemvalue="Python.Sortlist" />
         <item itemvalue="Python.PythonPrac" />
         <item itemvalue="Python.Practise" />
-        <item itemvalue="Python.checkxml" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +242,21 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First checking for git project" />
     <option name="LAST_COMMIT_MESSAGE" value="First checking for git project" />
   </component>
