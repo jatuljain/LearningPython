@@ -7,7 +7,7 @@ This program is to count total lines in all the files on a given directory and s
 import glob
  
 # Get a list of all the file paths that ends with .txt from in specified directory
-fileList = glob.glob('C:/Users/atul.jain/Downloads/*.ica')
+fileList = glob.glob('C:/Users/JAtul/Downloads/*.ica')
  
 # Iterate over the list of filepaths & remove each file.
 for filePath in fileList:

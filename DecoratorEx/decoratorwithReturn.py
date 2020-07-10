@@ -19,8 +19,9 @@ def sum_two_numbers(a, b):
     return a + b
 
 
-a, b = 1, 2
 
+# Calling the function
+a, b = 1, 2
 # getting the value through return of the function
 sum = sum_two_numbers(a, b)
 print("Sum = " ,sum)

@@ -4,6 +4,7 @@ def create_cube(n):
 
 g = create_cube(5)
 next(g)
+print(list(g))
 print(list(create_cube(10)))
 for x in create_cube(5):
     print(x)
