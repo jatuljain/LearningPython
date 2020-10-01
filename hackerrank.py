@@ -6,8 +6,9 @@ def find_two_sum(numbers, target_sum):
     """
 
     for i in numbers:
-        for i in numbers:
-            print(i);
+        for j in numbers:
+            if (i + j == target_sum):
+                return i,j
     return None
 
 
