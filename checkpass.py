@@ -5,3 +5,5 @@ for i in letter:
         print("pass statement is execute ..............")
     else:
         print(i)
+
+//Just checking my git commit from VSCode
