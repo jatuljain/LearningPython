@@ -35,11 +35,31 @@ Pass a string and print one capital letter and one small letter
 '''
 Print all the number between x,y which are divisible by 3 or 5
 '''
-out = 0
-for num in range(1,100):
-	# print (num)
-	if (num % 3 == 0) or (num % 5 == 0):
-		print ("adding " ,int(num), int(out))
-		out = int(num) + int(out)
+# out = 0
+# for num in range(1,100):
+# 	# print (num)
+# 	if (num % 3 == 0) or (num % 5 == 0):
+# 		print ("adding " ,int(num), int(out))
+# 		out = int(num) + int(out)
 	
-	print (out)
+# 	print (out)
+
+### -- -------------------------------------------------------------------------------------------
+# Checking line continuation
+# a=10
+# b=200
+# if (a == 10 and 
+# 	b == 20):                  
+# 	print("abc")
+# else:
+# 	print("out of if cond")
+
+### -- -------------------------------------------------------------------------------------------
+
+
+x = \ 
+    1 + 2 \ 
+    + 5 + 6 \ 
+    + 10"
+  
+print(x) 

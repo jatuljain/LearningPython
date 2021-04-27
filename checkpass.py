@@ -6,4 +6,4 @@ for i in letter:
     else:
         print(i)
 
-//Just checking my git commit from VSCode
+# Just checking my git commit from VSCode

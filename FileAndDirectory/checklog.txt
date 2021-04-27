@@ -1,0 +1,2 @@
+this is line with error
+and this is having fail
