@@ -13,8 +13,9 @@ for r, d, f in os.walk(path):
     # print("root, directory and file", r, d, f)
     for file in f:
         if ".txt" in file:
-            files.append(os.path.join(r, file))
+            files.append(os.path.join(r, file))  # This will create a list of File names
 
+print("list of all text Files to be checked\n", files)
 count = 0
 for f in files:
     # print(f)

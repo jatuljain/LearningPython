@@ -1,5 +1,5 @@
 """"
-This will for the biggest even and biggest odd of the given list.
+This will return the biggest even and biggest odd of the given list.
 
 """
 mylist = [1,2,3,4,5,6,23,343,454,45,1000]
