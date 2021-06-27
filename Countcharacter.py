@@ -26,6 +26,7 @@ countc = 0
 countd = 0
 print(para)
 
+# breakpoint()
 for i in para:
     if re.match(r"[a-z]", i):
         counts = counts + 1

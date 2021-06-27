@@ -1,4 +1,4 @@
-THis is to chcek commit
+This is to check commit
 
 ATULTCU2MBITST104
 AtulTCU2MBitst104

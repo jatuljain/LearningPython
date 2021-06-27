@@ -16,6 +16,7 @@ for r, d, f in os.walk(path):
         if ".txt" in file:
             files.append(os.path.join(r, file))
 
+print(type(files))
 totallinecount = 0
 for f in files:
     # print(f)
