@@ -1,7 +1,9 @@
 # importing the requests library
 import requests
+
 #
-URL = "https://github.com/timeline.json"
+# URL = "https://github.com/timeline.json"
+URL = "https://docs.github.com/en/rest/reference/activity#events"
 r = requests.get(URL)
 data = r.json()
 print(data)

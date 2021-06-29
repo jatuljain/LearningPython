@@ -1,13 +1,24 @@
 import re
 import os
 import sys
-import readjson as rj
+
+# import readjson as rj
+import json
 
 
-filenamenew = "E:\\Python\\git_projects\\svt-mmp - Copy.json"
+# filenamenew = "svt-mmp.json"
 
-rj.readjson(filenamenew)
+f = open(
+    "FileAndDirectory\\svt-mmp.json",
+)
+# print(os.getcwd() + "\n")
+data = json.load(f)
 
+# for i in data["VmImage"]:
+#     print(i)
+
+print(data["VmImage"][0]["name"])  # To get the VM Image name
+f.close()
 # print(pathvar)
 # with open("E:\\Python\\debug.log") as d:
 #
@@ -16,7 +27,7 @@ rj.readjson(filenamenew)
 #
 
 
-'''
+"""
 file = open("E:\\Python\\file.txt")
 
 # content = file.read()
@@ -67,4 +78,4 @@ file.close()
 # 		else:
 # 			print ("No match!! in " + line)
 #
-'''
+"""
