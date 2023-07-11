@@ -18,3 +18,5 @@ for filePath in fileList:
         remove(filePath)
     except:
         print("Error while deleting file : ", filePath)
+
+# This is commit 1
