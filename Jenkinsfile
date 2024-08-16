@@ -1,9 +1,15 @@
 pipeline {
-    agent { docker { image 'python:3.12.5-alpine3.20' } }
+    agent any
+    // Define parameters
+    parameters {
+        string(name: 'BRANCH', defaultValue: 'main', description: 'Branch to build')
+        booleanParam(name: 'RUN_TESTS', defaultValue: true, description: 'Run tests after build')
+        choice(name: 'ENVIRONMENT', choices: ['DEV', 'ACC'], description: 'Select deployment environment')
+    }
     stages {
-        stage('build') {
+        stage('Stage 1') {
             steps {
-                sh 'python --version'
+                echo 'Hello world!'
             }
         }
     }
