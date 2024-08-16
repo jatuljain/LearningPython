@@ -1,10 +1,20 @@
 pipeline {
-    agent { docker { image 'golang:1.22.6-alpine3.20' } }
+    agent any
     stages {
         stage('build') {
             steps {
-                sh 'go version'
+                echo 'Hello world, this is multibranch pipeline for Dev branch'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'testing Dev...'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'deploying Dev...'
             }
         }
     }
-}
+}    
