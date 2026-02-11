@@ -12,5 +12,13 @@ pipeline {
                 echo 'Hello world!'
             }
         }
+        stage('Run Robot Tests') {
+            steps {
+                script {
+                    def tags = params.ROBOT_TAGS.split(',').collect { "--include " + it.trim() }.join(' ')
+                    sh "robot ${tags} path/to/tests"
+                }
+            }
+        }
     }
 }

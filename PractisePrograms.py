@@ -27,7 +27,7 @@ Pass a string and print one capital letter and one small letter
 # for city in visited_cities:
 	# if len(city) >= 5 :
 		# finalcity.append(city)
-	
+
 # print(finalcity)
 
 ### -- -------------------------------------------------------------------------------------------
@@ -41,15 +41,15 @@ Print all the number between x,y which are divisible by 3 or 5
 # 	if (num % 3 == 0) or (num % 5 == 0):
 # 		print ("adding " ,int(num), int(out))
 # 		out = int(num) + int(out)
-	
+
 # 	print (out)
 
 ### -- -------------------------------------------------------------------------------------------
 # Checking line continuation
 # a=10
 # b=200
-# if (a == 10 and 
-# 	b == 20):                  
+# if (a == 10 and
+# 	b == 20):
 # 	print("abc")
 # else:
 # 	print("out of if cond")
@@ -57,9 +57,8 @@ Print all the number between x,y which are divisible by 3 or 5
 ### -- -------------------------------------------------------------------------------------------
 
 
-x = \ 
-    1 + 2 \ 
-    + 5 + 6 \ 
-    + 10"
-  
-print(x) 
+x = 1 + 2 \
+    + 5 + 6 \
+    + 10
+
+print(x)

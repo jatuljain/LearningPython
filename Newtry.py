@@ -1,6 +1,6 @@
 import sys
 
 try:
-  print("stuff"
+  print("stuff")
 except:
   sys.exit(1)
